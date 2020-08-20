@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestCase1,IE 11,,,2020-08-20 22:17:06,2020-08-20 22:18:24,1m - 18.104s,PASSED
+,,,,,,,
+Test Cases/TestCase1,IE 11,,,2020-08-20 22:17:08,2020-08-20 22:18:24,1m - 16.785s,PASSED
+"openBrowser("""")",IE 11,,,2020-08-20 22:17:09,2020-08-20 22:17:35,25.406s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",IE 11,,,2020-08-20 22:17:35,2020-08-20 22:17:43,8.113s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Demo account_form-control""))",IE 11,,,2020-08-20 22:17:43,2020-08-20 22:17:47,3.932s,PASSED
+"setText(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",IE 11,,,2020-08-20 22:17:47,2020-08-20 22:17:51,4.216s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",IE 11,,,2020-08-20 22:17:51,2020-08-20 22:17:54,2.568s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/button_Login""))",IE 11,,,2020-08-20 22:17:54,2020-08-20 22:17:56,2.226s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",IE 11,,,2020-08-20 22:17:56,2020-08-20 22:18:03,6.853s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",IE 11,,,2020-08-20 22:18:03,2020-08-20 22:18:05,2.392s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Medicaid_programs""))",IE 11,,,2020-08-20 22:18:05,2020-08-20 22:18:07,2.199s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",IE 11,,,2020-08-20 22:18:07,2020-08-20 22:18:09,2.306s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/td_29""))",IE 11,,,2020-08-20 22:18:09,2020-08-20 22:18:12,2.133s,PASSED
+"setText(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Book Appointment"")",IE 11,,,2020-08-20 22:18:12,2020-08-20 22:18:15,3.108s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/button_Book Appointment""))",IE 11,,,2020-08-20 22:18:15,2020-08-20 22:18:20,4.903s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/h2_Appointment Confirmation""))",IE 11,,,2020-08-20 22:18:20,2020-08-20 22:18:22,2.137s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a""))",IE 11,,,2020-08-20 22:18:22,2020-08-20 22:18:24,2.065s,PASSED
+closeBrowser(),IE 11,,,2020-08-20 22:18:24,2020-08-20 22:18:24,0.644s,PASSED

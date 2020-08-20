@@ -1,0 +1,20 @@
+1
+00:00:01,691 --> 00:00:01,703
+1. openBrowser("")
+
+2
+00:00:13,471 --> 00:00:13,476
+5. navigateToUrl(findTestData("Testdata_Exernal").getValue("URL", 2))
+
+3
+00:00:21,093 --> 00:00:21,097
+9. click(findTestObject("Object Repository/TestCAse2/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:22,626 --> 00:00:22,630
+13. setText(findTestObject("Object Repository/TestCase1/Page_CURA Healthcare Service/input_Username_username"), findTestData("Testdata_Exernal").getValue("UserName", 2))
+
+5
+00:00:23,838 --> 00:00:23,840
+17. setEncryptedText(findTestObject("Object Repository/TestCase1/Page_CURA Healthcare Service/input_Password_password"), findTestData("Testdata_Exernal").getValue("Password", 2))
+

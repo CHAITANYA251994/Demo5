@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestCase1,Chrome 84.0.4147.125,,,2020-08-20 22:41:11,2020-08-20 22:42:14,1m - 3.731s,FAILED
+,,,,,,,
+Test Cases/TestCase1,Chrome 84.0.4147.125,,,2020-08-20 22:41:12,2020-08-20 22:42:14,1m - 2.208s,FAILED
+"openBrowser("""")",Chrome 84.0.4147.125,,,2020-08-20 22:41:14,2020-08-20 22:41:25,11.024s,PASSED
+"navigateToUrl(findTestData(""Testdata_Exernal"").getValue(""URL"", 2))",Chrome 84.0.4147.125,,,2020-08-20 22:41:25,2020-08-20 22:41:36,10.777s,PASSED
+"click(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 84.0.4147.125,,,2020-08-20 22:41:36,2020-08-20 22:42:08,31.908s,PASSED
+"setText(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Username_username""), findTestData(""Testdata_Exernal"").getValue(""UserName"", 2))",Chrome 84.0.4147.125,,,2020-08-20 22:42:08,2020-08-20 22:42:10,2.136s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestCase1/Page_CURA Healthcare Service/input_Password_password""), findTestData(""Testdata_Exernal"").getValue(""Password"", 2))",Chrome 84.0.4147.125,,,2020-08-20 22:42:10,2020-08-20 22:42:12,1.811s,FAILED
+Video,Chrome 84.0.4147.125,,,2020-08-20 22:42:14,2020-08-20 22:42:14,0.003s,PASSED
